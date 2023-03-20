@@ -60,7 +60,7 @@ document.querySelector("body").innerHTML = `
             <img height="400px" width="700px" src="it.jpg" alt="Payaso diabólico">
             <iframe height="400px" width="700px" src="https://es.wikipedia.org/wiki/Stephen_King" frameborder="0"></iframe>
             <br>
-            <a href="https://google.com" target="_blank">Buscador</a>
-            <a href="https://www.youtube.com/watch?v=_1qGhChKL8s">Youtube</a>
+            <a href="https://google.com" target="_blank"><p>Buscador</p></a>
+            <a href="https://www.youtube.com/watch?v=_1qGhChKL8s"><p>Youtube</p></a>
         </details>
-        `
+        `;
