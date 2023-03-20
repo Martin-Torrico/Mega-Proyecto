@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Mega Proyecto</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <!-- <h1>Super Mega Titulo del Proyecto</h1>
+document.querySelector("body").innerHTML = `
+<h1>Super Mega Titulo del Proyecto</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facilis laudantium numquam aut cupiditate
         veritatis temporibus tenetur nesciunt exercitationem omnis. Adipisci totam iste odio quam eveniet dolore
         aliquam, eaque libero?
@@ -73,8 +62,5 @@
             <br>
             <a href="https://google.com" target="_blank">Buscador</a>
             <a href="https://www.youtube.com/watch?v=_1qGhChKL8s">Youtube</a>
-        </details> -->
-        <script src="algoritmo.js" ></script>
-</body>
-
-</html>
+        </details>
+        `
